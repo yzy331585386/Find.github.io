@@ -1,0 +1,33 @@
+*{
+
+    overflow: hidden;
+
+}
+title{
+    display: none;
+}
+
+.beginbutton{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    z-index: 2;
+    left: 43vw;
+    top: 75vh;
+    transition: 0.3s;
+}
+
+.beginbutton:hover {
+    width: 30vw;
+    left:40vw;
+}
+
+
+.backimg {
+    position: absolute;
+    left: -1vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+

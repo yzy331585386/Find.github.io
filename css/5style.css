@@ -1,0 +1,116 @@
+*{
+
+    overflow: hidden;
+
+}
+
+.tborder{
+    position: absolute;
+
+    /*border: 2px solid aqua;*/
+    z-index: 4;
+}
+#tborder1{
+
+    width: 89vw;
+    height: 4vh;
+    top: 47vh;
+    left: 6vw;
+}
+#tborder2{
+    width: 10vw;
+    height: 10vh;
+    top: 10vh;
+    left: 30vw;
+
+}
+
+#tborder3{
+    width: 10vw;
+    height: 13vh;
+    top: 58vh;
+    left: 10vw;
+}
+
+#tborder4{
+    width: 6vw;
+    height: 6vh;
+    top: 15.5vh;
+    left: 61.1vw;
+    border-radius: 50%; /* 圆形的半径 */
+    border: 2px dashed red; /* 虚线红色边框 */
+}
+
+#treturn_border{
+    width: 6vw;
+    height: 8vh;
+    top: 2vh;
+    left: 93vw;
+}
+
+.tpicture{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+}
+.sign{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    z-index: 10;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#s1{
+    top: 25rem;
+    left: 5rem;
+}
+#s2{
+    top: 30rem;
+    left: 18rem;
+}
+
+.note{
+    position: absolute;
+    z-index: 11;
+    background-color: aqua;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#n2{
+    top: 25rem;
+    left: 20rem;
+
+}
+
+.backimg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.follow-text {
+    position: absolute;
+    pointer-events: none; /* 防止在文字上点击时触发事件 */
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 2s;
+    z-index: 5;
+}
+
+#tscore{
+    position: absolute;
+    font-size: 2vw;
+    top: 1vh;
+    left: 30vw;
+    z-index: 6;
+}
